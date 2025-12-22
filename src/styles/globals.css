@@ -1,9 +1,33 @@
-:root {
-    --primary-orange: #ff7a1a;
-    --dark-brown: #3a1c0f;
-    --footer-bg: #2a1208;
+/* importing tailwind and inter font */
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+@import "tailwindcss";
 
-    --text-dark: #1f2937;
-    --text-gray: #6b7280;
-    --text-light: #ffffff;
+:root {
+  --primary-orange: #ff7a1a;
+  --dark-brown: #3a1c0f;
+  --footer-bg: #2a1208;
+
+  --text-dark: #1f2937;
+  --text-gray: #6b7280;
+  --text-light: #ffffff;
 }
+
+* {
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
+
+body {
+  background-color: #f9f9f9;
+  color: var(--text-dark);
+  line-height: 1.6;
+  padding: 0 6%;
+}
+
+/* .inter-<uniquifier> {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+} */
