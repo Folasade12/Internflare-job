@@ -1,8 +1,11 @@
-import Hero from "../components/Hero/Hero";
+import Navbar from "../components/Navbar"
+import Hero from "../components/Hero";
+
 const Home = () => {
   return (
     <>
-       <Hero />
+      <Navbar/>
+      <Hero />
     </>
   );
 };
