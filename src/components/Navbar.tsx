@@ -1,8 +1,9 @@
 import { Link } from "react-router-dom";
 
+// Navbar component
 const Navbar = () => {
   return (
-    <header className="my-[30px]">
+    <header className="my-[30px] mx-[6%]">
       <nav className="h-[42px] flex items-center justify-between">
         <h1 className="text-[40px] text-[var(--primary-orange)] font-bold">
           InternflareJobs

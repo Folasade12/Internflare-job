@@ -5,7 +5,7 @@ import hero_img from "../assets/hero-img.png";
 const Hero = () => {
   return (
     <section
-      className="flex justify-between items-center px-[24px] pt-[24px] gap-[10px] rounded-[48px]"
+      className="flex justify-between items-center mx-[6%] px-[24px] pt-[24px] gap-[10px] rounded-[48px]"
       style={{
         background: "linear-gradient(90deg, #3a1c0f, #5a2a14)",
       }}
